@@ -1,7 +1,7 @@
 {
-  "name": "nuxt_project",
+  "name": "fancyblog",
   "version": "1.0.0",
-  "description": "A practice Project in nuxt",
+  "description": "A blog with nuxt.js",
   "author": "Abu Yusuf",
   "private": true,
   "scripts": {
@@ -11,13 +11,17 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.3.6",
     "cross-env": "^5.2.0",
-    "get-json": "^1.0.1",
-    "libphonenumber-js": "^1.7.12",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "vuetify": "^1.2.4",
+    "@nuxtjs/axios": "^5.0.0"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "prettier": "1.14.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
   }
 }

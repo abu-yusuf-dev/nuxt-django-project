@@ -1,6 +1,9 @@
 const pkg = require('./package')
 
 module.exports = {
+  env: {
+    backendAPIBaseURL: process.env.backendAPIBaseURL || 'https://apistore1.herokuapp.com',
+  },
   mode: 'universal',
 
   /*
@@ -14,7 +17,8 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' }
     ]
   },
 
@@ -27,23 +31,28 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    '~/assets/style/app.styl'
   ],
 
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '@/plugins/vuetify'
   ],
 
   /*
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/axios',
+    // Doc: https://github.com/nuxt-community/axios-module#usage
+    '@nuxtjs/axios'
   ],
-
+  /*
+  ** Axios module configuration
+  */
   axios: {
-    // proxyHeaders: false
+    // See https://github.com/nuxt-community/axios-module#options
   },
 
   /*
