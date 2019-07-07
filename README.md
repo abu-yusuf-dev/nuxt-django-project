@@ -1,6 +1,4 @@
-# nuxt_project
-
-> A practice Project in nuxt
+# nuxt+djnago-rest_project
 
 ## Build Setup
 
