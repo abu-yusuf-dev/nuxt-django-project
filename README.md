@@ -2,6 +2,8 @@
 
 > A blog with nuxt.js
 
+# live: https://nuxt-rest.herokuapp.com/blog
+
 ## Build Setup
 
 ``` bash
