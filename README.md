@@ -1,4 +1,4 @@
-# nuxt+djnago-rest_project
+# nuxt+django-rest_project
 
 ## Build Setup
 
