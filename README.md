@@ -1,4 +1,4 @@
-# fancyblog
+# Nuxt-Django-rest-Project
 
 > A blog with nuxt.js
 
