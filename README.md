@@ -2,7 +2,7 @@
 
 > A blog with nuxt.js
 
-# live: https://nuxt-rest.herokuapp.com/blog
+# live: https://nuxt-rest-app.herokuapp.com/blog
 
 ## Build Setup
 
